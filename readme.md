@@ -1,10 +1,9 @@
 # OKCupid dataset indexer
 
-Indexes Open Science Framework's [OKCupid very large public dataset](https://osf.io/p9ixw/)
+Indexes the OKCupid very large public dataset. It's been removed from the Open Science Framework, but there are many mirrors still available online.
 
-1. Grab the data sources from [https://osf.io/p9ixw/](https://osf.io/p9ixw/) (you need the csv's and 7z from the data dir)
-2. Drop them in `data`
-3. un-7zip `user_data.7z` in place (you can delete it afterward)
+1. Grab the data sources from an [online mirror](https://www.sendspace.com/file/t392pf)
+2. Copy the `data` into the root of this repo
 4. Use `npm start` to index into PouchDB (under `db`)
 
 ## Included scripts
